@@ -1,0 +1,30 @@
+variables para crear base de datos : profe cristian
+"siempre se usa el punto y coma"
+
+herramienta para pasar a modelo relacional   =  DrawSQL
+
+como usar DrawSQL
+1.Registro 
+2.new diagrama
+3. new table
+4. usar fk cuando pertenece a el id de otra entidad ejemplo  reserva pertenece al id del usuario.  " clave foranea " (index)
+
+
+
+codigos:
+
+not_null
+null
+primari key
+unique key
+index
+none
+
+
+
+MySQL
+1. create database  + nombre  // para crear una base de datos
+2. Create table  +nombre + parentesis y punto y coma  // para crear la tabla
+
+
+

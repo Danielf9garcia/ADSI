@@ -1,0 +1,71 @@
+Programacion:   
+
+public static void main : siempre se usa para empezar cualquier programa
+sout: para escribir textos
+
+Tipos de variables  primitivas:
+
+variable: espacio de memoria donde se almacena informacion.
+byte: es para numeros de -128 hasta 127 tamaño 8
+short es para numeros -32.768 a 32.767 tamaño 16
+int : se puede utilizar para grandes cantidades que seria un tamaño de 32 numeros
+long : para numeros, tamaño 64
+float : es para decimal pero alterminar el numero se debe poner una letra f ejemplo (3.45f)
+double: decimales con un tamaño mas amplio que el float.
+char : es para guardar caracter , que es caracter todo aquello que encuentres en el teclado cualquier tecla.
+boolean: es la que sirve para saber si es verdad o falso.
+
+
+tipo de datos no primitivos
+los no primitivos pueden almacenar null
+
+Variable no primitiva
+String : sirve para ingresar texto y tambien sirva para cadena ejemplo: String palabra = "hola ";
+es no primitivo por que si se pone un punto salen muchos pasos que se pueden utilizarlo.
+
+constante : puede almacer informacion pero no puedes cambiarla  ejemplo final int numero =10; el valor no puede cambiar.
+Scanner : es para guardar todos los datos que ingresa el usuario. " sirve para cuando se digita alguna informacion"
+
+Como guardar cadenas:
+String cadena;
+sout : digite una cadena 
+Cadena=entrada.next();
+
+como guardar un caracter:
+char letra;
+sout: digite una letra ;
+letra=entrada.next().charAt(0);
+
+como utilizar ventanas emergentes: 
+numero = JOptionPane.showInputDialog("digite una cadena");
+esto se puede utilziar para escribir y luego mostrar lo que queda almacenado con sout,
+cuando es int no va dejar utilziar ya que solo guarda cadena pero si lo quiere 
+utilizar se puede hacer con Integer.parseInt(JOptionPane.showInputDialog("digite algo"));
+asi mismo para cualquier tipo que no sea cadena double , int  etc..
+
+
+ShowimputDialog:
+es para guardar algun texto  
+
+ShowmessageDialong(null,"texto"+caracter);
+es para mostrar el mensaje que se almaceno.
+
+Definicion de Operadores:
+
+ -suma : suma=numero1+numero2;
+ -resta : resta=numero1+numero2;
+ -mult :  mult= numero1 * numero 2;
+ -div : numero1 / numero2;
+ -resto : resto= numero1%numero2 : este divide al numero1 con el numero2  y el resto lo va almacenar en la variable.
+
+incremento y decremento:
+x=5
+X++; =6 incremento. 
+x--; =4 Decremento.
+
+cuando se va hacer con dos caracter seria:
+
+y= ++ x; =6  incremento.
+Y= -- x; =4  decremento.
+
+ 

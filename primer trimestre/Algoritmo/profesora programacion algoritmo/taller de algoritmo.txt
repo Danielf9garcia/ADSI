@@ -1,0 +1,213 @@
+Taller
+
+ejercicio 1 :
+public class Ejercicio1 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+        double nota1,nota2,nota3,nota_final;
+        
+       System.out.print("escriba la nota 1");
+       nota1=Entrada.nextDouble();
+       System.out.print("escriba la nota 2");
+       nota2=Entrada.nextDouble();
+       System.out.print("escribir la nota 3");
+       nota3=Entrada.nextDouble();
+       
+      nota_final=(nota1+nota2+nota3)/3;
+              
+      System.out.print("la nota final del estudiante es : " + nota_final );
+
+
+Ejercicio 2:
+
+public class Ejercicio2 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+        double numero,raiz;
+        System.out.println("ingrese el numero al obtener la raiz");
+    
+        numero=Entrada.nextDouble();
+        raiz = Math.sqrt(numero);
+        
+        System.out.println("la raiz cuadrada de "+ numero+ " es " + raiz);
+
+
+ejercicio 3
+public class Ejercicio3 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+        double calificacion1,calificacion2,calificacion3,promedio;
+        String Alumno;
+        
+        System.out.println("Nombre del alumno ");
+        Alumno=Entrada.nextLine();
+        
+        System.out.println("calificaion 1 ");
+        calificacion1=Entrada.nextDouble();
+        System.out.println("calificaion 2 ");
+        calificacion2=Entrada.nextDouble();
+        System.out.println("calificaion 3 ");
+        calificacion3=Entrada.nextDouble();
+        
+        promedio=(calificacion1+calificacion2+calificacion3)/3;
+        System.out.println("el promedio final del alumno "+Alumno+"es de "+promedio );
+
+Ejercicio 4	
+
+public class Ejercicio4 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+       int horas;
+       double sueldohora= 60.000, sueldo;
+       String nombre;
+       
+        System.out.println("ingrese nombre del empleado");
+        nombre=Entrada.nextLive();
+        System.out.println("horas trabajadas ala semana");
+        horas=Entrada.nextInt();
+        sueldo=sueldohora*horas;
+        System.out.println("el sueldo del empleado "+horas+"es"+sueldohora);
+
+Ejercicio 5
+public class Ejercicio5 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+      double area,base,altura;
+        System.out.println(" ingrese al altura");
+        altura=Entrada.nextDouble();
+        System.out.println("ingrese la base");
+        base=Entrada.nextDouble();
+        
+        area=(base*altura)/2;
+        System.out.println(" el area del trinagulo es"+area);
+
+Ejercicio 6
+
+public class Ejercicio6 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        
+         double sueldo1,sueldo2,sueldo3;
+         
+        System.out.println(" ingrese el sueldo 1");
+        sueldo1=Entrada.nextDouble();
+        System.out.println(" ingrese el sueldo 2");
+        sueldo2=Entrada.nextDouble();        
+        System.out.println(" ingrese el sueldo 3");
+        sueldo3=Entrada.nextDouble();
+   
+        
+        sueldo1=(sueldo1*0.10); 
+        sueldo2=(sueldo2*0.12);
+        sueldo3=(sueldo3*0.15);
+        
+        
+        System.out.println("el sueldo del empleado con el aumento del 10% es " +sueldo1);
+        System.out.println(" el sueldo del empleado con el aumento del 12% es "+ sueldo2);
+        System.out.println(" el sueldo del empleado con el aumento dle 15% es "+ sueldo3);
+
+ejercicio 7:
+
+public class Ejercicio1 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+        int numero;
+        int cuadrado;
+        System.out.println("ingrese el numero a elevar al cuadrado");
+        numero=Entrada.nextInt();
+        
+        while (numero >= 0)
+        {
+            cuadrado=numero*numero;
+                
+            System.out.println(numero+" "+"al cuadrado es "+" "+cuadrado);
+            System.out.println("ingrese el numero a elevar al cuadrado");
+            numero=Entrada.nextInt();    
+
+Ejercicio 8 
+
+public class Ejercicio8 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+       int num1,num2,num3,num4,suma,promedio;
+     System.out.print("Ingrese primer valor:");
+     num1=Entrada.nextInt();
+     System.out.print("Ingrese segundo valor:");
+     num2=Entrada.nextInt();
+     System.out.print("Ingrese tercer valor:");
+     num3=Entrada.nextInt();
+     System.out.print("Ingrese cuarto valor:");
+     num4=Entrada.nextInt();
+     suma=num1 + num2 + num3 + num4;
+     System.out.print("La suma de los cuatro valores es:"+suma);
+     promedio=suma/4;
+     System.out.print("El promedio es:"+promedio);
+
+Ejercicio 9:
+
+public class Ejercicio1 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+       
+     double valorcentimetros= 2.54;
+     double pulgadas, centimetros ;
+     
+        System.out.println(" ingrese el valor de las pulgadas");
+        pulgadas=Entrada.nextDouble();
+        
+        centimetros= pulgadas * valorcentimetros;
+        
+        System.out.println("el resultado en centimetros es " + centimetros);
+
+Ejercicio 10
+
+public class Ejercicio1 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+       
+     double costodelvehiculo,ganancia,impuesto;
+     
+        System.out.println(" ingrese el costo del vehiculo");
+        costodelvehiculo=Entrada.nextDouble();
+        
+        ganancia=costodelvehiculo*0.12;
+        impuesto=costodelvehiculo*0.6;
+        
+        
+        System.out.println("el consto del vehiculo con el impuesto"+costodelvehiculo+"es "+impuesto);
+        System.out.println(" la ganancia del vendedor es de "+ganancia);
+        System.out.println(" el impuesto a pagar es de "+impuesto);
+
+Ejercicio 11: 
+
+public class Ejercicio11 { 
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+       
+        double lunes,miercoles,viernes,total;
+        System.out.print("ingresar tiempo del lunes:");
+        lunes=Entrada.nextDouble();
+        System.out.print("ingresar tiempo del miercoles:");
+        miercoles=Entrada.nextDouble();
+        System.out.print("ingresar tiempo del viernes:");
+        viernes=Entrada.nextDouble();
+        total=(lunes+ miercoles + viernes)/3;
+        System.out.print("el total es :" + total);
+
+Ejercicio 15
+public class ejercicio15 {
+    public static void main(String[] args) {
+        Scanner Entrada=new Scanner(System.in);
+    
+    double grados;
+    System.out.println("Introduce ºC");
+    grados = Entrada.nextDouble();
+    double farenheit=grados*2-grados/5;
+    farenheit=farenheit+32;
+    System.out.println(grados+" ºC equivale a "+farenheit+" farenheit");
+
